@@ -1,0 +1,34 @@
+{
+  "_source": "pathofexile.com/api/trade/data/static, pasted by the owner on 2026-11-16 (3.30 Covens). Only entries missing from items.ndjson.",
+  "add": [
+    { "id": "infused-engineers-orb", "text": "Infused Engineer's Orb", "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvSW5mdXNlZEVuZ2luZWVyc09yYiIsInNjYWxlIjoxfV0/55774baf2f/InfusedEngineersOrb.png" },
+    { "id": "frayed-thread", "text": "Frayed Thread", "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvVGhyZWFkcy9GcmF5ZWRUaHJlYWQiLCJzY2FsZSI6MX1d/05edda6ed4/FrayedThread.png" },
+    { "id": "soul-core-of-intellect", "text": "Soul Core of Intellect", "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvU291bGNvcmVzL1NvdWxDb3JlR2VuZXJpY0ludGVsbGlnZW5jZSIsInNjYWxlIjoxfV0/34f9cc2429/SoulCoreGenericIntelligence.png" },
+    { "id": "soul-core-of-might", "text": "Soul Core of Might", "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvU291bGNvcmVzL1NvdWxDb3JlR2VuZXJpY1N0cmVuZ3RoIiwic2NhbGUiOjF9XQ/ec0c904c58/SoulCoreGenericStrength.png" },
+    { "id": "soul-core-of-finesse", "text": "Soul Core of Finesse", "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvU291bGNvcmVzL1NvdWxDb3JlR2VuZXJpY0RleHRlcml0eSIsInNjYWxlIjoxfV0/2729235e41/SoulCoreGenericDexterity.png" },
+    { "id": "soul-core-of-instability", "text": "Soul Core of Instability", "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvU291bGNvcmVzL1NvdWxDb3JlR2VuZXJpYyIsInNjYWxlIjoxfV0/df392887b5/SoulCoreGeneric.png" },
+    { "id": "cursed-poppet", "text": "Cursed Poppet", "image": "/gen/image/WzI4LDE0LHsiZiI6IjJESXRlbXMvTWFwcy9BdWd1cnlCb3NzRnJhZ21lbnQiLCJzY2FsZSI6MX1d/e712f203bf/AuguryBossFragment.png" },
+    { "id": "expedition-thread", "text": "Expedition Thread", "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvVGhyZWFkcy9FeHBlZGl0aW9uVGhyZWFkIiwic2NhbGUiOjF9XQ/9541c89bf9/ExpeditionThread.png" },
+    { "id": "abyss-thread", "text": "Abyss Thread", "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvVGhyZWFkcy9BYnlzc1RocmVhZCIsInNjYWxlIjoxfV0/fa2302d9d4/AbyssThread.png" },
+    { "id": "breach-thread", "text": "Breach Thread", "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvVGhyZWFkcy9CcmVhY2hUaHJlYWQiLCJzY2FsZSI6MX1d/d600d1d343/BreachThread.png" },
+    { "id": "ritual-thread", "text": "Ritual Thread", "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvVGhyZWFkcy9SaXR1YWxUaHJlYWQiLCJzY2FsZSI6MX1d/ec35a48af4/RitualThread.png" },
+    { "id": "ultimatum-thread", "text": "Ultimatum Thread", "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvVGhyZWFkcy9VbHRpbWF0dW1UaHJlYWQiLCJzY2FsZSI6MX1d/74155b9b4e/UltimatumThread.png" },
+    { "id": "legion-thread", "text": "Legion Thread", "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvVGhyZWFkcy9MZWdpb25UaHJlYWQiLCJzY2FsZSI6MX1d/819bd1a22b/LegionThread.png" },
+    { "id": "blight-thread", "text": "Blight Thread", "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvVGhyZWFkcy9CbGlnaHRUaHJlYWQiLCJzY2FsZSI6MX1d/add7a8099e/BlightThread.png" },
+    { "id": "bestiary-thread", "text": "Bestiary Thread", "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvVGhyZWFkcy9CZXN0aWFyeVRocmVhZCIsInNjYWxlIjoxfV0/7fd44c21e8/BestiaryThread.png" },
+    { "id": "betrayal-thread", "text": "Betrayal Thread", "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvVGhyZWFkcy9CZXRyYXlhbFRocmVhZCIsInNjYWxlIjoxfV0/fa10b037f1/BetrayalThread.png" },
+    { "id": "incursion-thread", "text": "Incursion Thread", "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvVGhyZWFkcy9JbmN1cnNpb25UaHJlYWQiLCJzY2FsZSI6MX1d/c727d5bfc4/IncursionThread.png" },
+    { "id": "immortal-astrolabe", "text": "Immortal Astrolabe", "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQXRsYXMvQXRsYXNNaXNzaW9uQmV0cmF5YWwiLCJzY2FsZSI6MX1d/448fbf5692/AtlasMissionBetrayal.png" },
+    { "id": "feral-astrolabe", "text": "Feral Astrolabe", "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQXRsYXMvQXRsYXNNaXNzaW9uQmVzdGlhcnkiLCJzY2FsZSI6MX1d/060e272614/AtlasMissionBestiary.png" },
+    { "id": "royal-astrolabe", "text": "Royal Astrolabe", "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQXRsYXMvQXRsYXNNaXNzaW9uSW5jdXJzaW9uIiwic2NhbGUiOjF9XQ/d689de7ec1/AtlasMissionIncursion.png" },
+    { "id": "cryptic-astrolabe", "text": "Cryptic Astrolabe", "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQXRsYXMvQXRsYXNNaXNzaW9uTXlzdGVyeSIsInNjYWxlIjoxfV0/1da78bb462/AtlasMissionMystery.png" },
+    { "id": "allflame-ember-of-the-cloister", "text": "Allflame Ember of the Cloister", "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvTmVjcm9wb2xpcy9BbGxmbGFtZUNsb2lzdGVyIiwic2NhbGUiOjF9XQ/98f5889478/AllflameCloister.png" },
+    { "id": "allflame-ember-of-the-multitude", "text": "Allflame Ember of the Multitude", "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvTmVjcm9wb2xpcy9BbGxmbGFtZUF0bGFzIiwic2NhbGUiOjF9XQ/d6b8ab90ac/AllflameAtlas.png" },
+    { "id": "allflame-ember-of-the-divine", "text": "Allflame Ember of the Divine", "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvTmVjcm9wb2xpcy9BbGxmbGFtZVBhbnRoZW9uIiwic2NhbGUiOjF9XQ/47e6436654/AllflamePantheon.png" },
+    { "id": "afarud-enshrouding-crystal", "text": "Afarud Enshrouding Crystal", "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvTGVnaW9uL0FmYXJ1ZEVuc2hyb3VkaW5nQ3J5c3RhbCIsInNjYWxlIjoxfV0/6e040b24a0/AfarudEnshroudingCrystal.png" },
+    { "id": "essence-of-trickery", "text": "Essence of Trickery", "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9Fc3NlbmNlRGVsaXJpdW0iLCJzY2FsZSI6MX1d/d55a1ae408/EssenceDelirium.png" }
+  ],
+  "tagExisting": [
+    { "id": "mysterious-wombgift", "text": "Mysterious Wombgift" }
+  ]
+}
