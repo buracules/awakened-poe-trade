@@ -15,6 +15,9 @@ import { magicBasetype } from './magic-name'
 import { isModInfoLine, groupLinesByMod, parseModInfoLine, parseModType, ModifierInfo, ParsedModifier, ENCHANT_LINE, SCOURGE_LINE, IMPLICIT_LINE } from './advanced-mod-desc'
 import { calcPropPercentile, QUALITY_STATS } from './calc-q20'
 
+// LOCAL PATCH (3.30 Covens): Viscera are not in upstream data/client strings yet
+const VISCERA_HELP = 'Take this to the Wickerman in a town or hideout to attach it.'
+
 type SectionParseResult =
   | 'SECTION_PARSED'
   | 'SECTION_SKIPPED'
@@ -155,6 +158,19 @@ function itemTextToSections (text: string) {
 }
 
 function normalizeName (item: ParserState) {
+  if (item.category === ItemCategory.Viscera) {
+    // "Lesser Swordmaster's Blade" -> "Swordmaster's Blade" (trade only knows the base)
+    const words = item.name.split(' ')
+    for (let i = 0; i < words.length; i += 1) {
+      const candidate = words.slice(i).join(' ')
+      if (ITEM_BY_TRANSLATED('ITEM', candidate)?.length) {
+        item.name = candidate
+        break
+      }
+    }
+    return
+  }
+
   if (item.rarity === ItemRarity.Magic) {
     const baseType = magicBasetype(item.name)
     if (baseType) {
@@ -979,6 +995,11 @@ function parseCategoryByHelpText (section: string[], item: ParsedItem) {
     return 'SECTION_PARSED'
   } else if (section[0] === _$.VOIDSTONE_HELP) {
     item.category = ItemCategory.Voidstone
+    return 'SECTION_PARSED'
+  } else if (section[0] === VISCERA_HELP) {
+    item.category = ItemCategory.Viscera
+    // clipboard has no "Rarity:" line, trade lists them as Normal
+    item.rarity = ItemRarity.Normal
     return 'SECTION_PARSED'
   }
 

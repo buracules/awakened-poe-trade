@@ -229,6 +229,7 @@ export function createFilters (
         item.category === ItemCategory.ClusterJewel ||
         item.category === ItemCategory.Idol ||
         item.category === ItemCategory.Graft ||
+        item.category === ItemCategory.Viscera ||
         item.category === ItemCategory.HeistBlueprint
       ) {
         disabled = true
