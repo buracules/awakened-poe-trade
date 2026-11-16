@@ -160,6 +160,8 @@ export interface TranslationDict {
   TAG_WARD: string
   BLOCK_CHANCE: string
   CORRUPTED: string
+  // 3.27+ double corruption; only the English client strings carry it so far
+  CORRUPTED_TWICE?: string
   UNIDENTIFIED: string
   ITEM_SUPERIOR: RegExp
   MAP_BLIGHTED: RegExp
