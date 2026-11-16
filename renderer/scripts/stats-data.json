@@ -1,0 +1,4405 @@
+{
+ "_source": "pathofexile.com/api/trade/data/stats, saved by the owner on 2026-11-16 (3.30 Covens). Only stats met on real items and missing from stats.ndjson; the app leaves many trade stats out on purpose, so they are added one by one, not in bulk.",
+ "add": [
+  {
+   "text": "#% chance to Avoid Blind",
+   "seenOn": "Rare Cobalt Jewel, suffix \"of Catarina\"",
+   "ids": {
+    "explicit": [
+     "explicit.stat_2961618300"
+    ],
+    "fractured": [
+     "fractured.stat_2961618300"
+    ]
+   }
+  },
+  {
+   "text": "Regenerate #% of Life per Second if you've Detonated a Mine Recently",
+   "seenOn": "Rare Viridian Jewel, suffix \"of Catarina\"",
+   "ids": {
+    "explicit": [
+     "explicit.stat_1373957102"
+    ],
+    "fractured": [
+     "fractured.stat_1373957102"
+    ]
+   }
+  }
+ ],
+ "_bulkNote": "bulk: every explicit trade stat missing locally, minus map/area/league-mechanic/legacy/graft text (see EX filter in the session that made it). Unique-item and jewel mods mostly.",
+ "bulk": [
+  {
+   "text": "Grants Immunity to Bleeding for 4 seconds if used while Bleeding\nGrants Immunity to Corrupted Blood for 4 seconds if used while affected by Corrupted Blood",
+   "ids": {
+    "explicit": [
+     "explicit.stat_3233646242"
+    ]
+   }
+  },
+  {
+   "text": "Grants Immunity to Chill for 4 seconds if used while Chilled\nGrants Immunity to Freeze for 4 seconds if used while Frozen",
+   "ids": {
+    "explicit": [
+     "explicit.stat_3570046771"
+    ]
+   }
+  },
+  {
+   "text": "#% increased Physical Damage with One Handed Melee Weapons",
+   "ids": {
+    "explicit": [
+     "explicit.stat_1334465904"
+    ],
+    "fractured": [
+     "fractured.stat_1334465904"
+    ]
+   }
+  },
+  {
+   "text": "Minions have +# to Accuracy Rating",
+   "ids": {
+    "explicit": [
+     "explicit.stat_1661151735"
+    ],
+    "fractured": [
+     "fractured.stat_1661151735"
+    ]
+   }
+  },
+  {
+   "text": "#% increased Melee Physical Damage while holding a Shield",
+   "ids": {
+    "explicit": [
+     "explicit.stat_3501769159"
+    ],
+    "fractured": [
+     "fractured.stat_3501769159"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Multistrike Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_2100902429"
+    ]
+   }
+  },
+  {
+   "text": "#% increased Physical Damage with Two Handed Melee Weapons",
+   "ids": {
+    "explicit": [
+     "explicit.stat_2056783069"
+    ],
+    "fractured": [
+     "fractured.stat_2056783069"
+    ]
+   }
+  },
+  {
+   "text": "Recharges # Charge when you take a Critical Strike",
+   "ids": {
+    "explicit": [
+     "explicit.stat_3662336899"
+    ]
+   }
+  },
+  {
+   "text": "#% additional Physical Damage Reduction if you weren't Damaged by a Hit Recently",
+   "ids": {
+    "explicit": [
+     "explicit.stat_3603666270"
+    ],
+    "fractured": [
+     "fractured.stat_3603666270"
+    ]
+   }
+  },
+  {
+   "text": "+#% to Quality",
+   "ids": {
+    "explicit": [
+     "explicit.stat_2016708976"
+    ],
+    "fractured": [
+     "fractured.stat_2016708976"
+    ]
+   }
+  },
+  {
+   "text": "# Flask Charges recovered every 3 seconds",
+   "ids": {
+    "explicit": [
+     "explicit.stat_3228973398"
+    ]
+   }
+  },
+  {
+   "text": "Grants Immunity to Shock for 4 seconds if used while Shocked",
+   "ids": {
+    "explicit": [
+     "explicit.stat_1823903967"
+    ]
+   }
+  },
+  {
+   "text": "Grants Immunity to Poison for 4 seconds if used while Poisoned",
+   "ids": {
+    "explicit": [
+     "explicit.stat_3596333054"
+    ]
+   }
+  },
+  {
+   "text": "Grants Level # Aspect of the Spider",
+   "ids": {
+    "explicit": [
+     "explicit.effect_149184016"
+    ]
+   }
+  },
+  {
+   "text": "#% reduced Spark Duration",
+   "ids": {
+    "explicit": [
+     "explicit.stat_3420284170"
+    ]
+   }
+  },
+  {
+   "text": "With at least 40 Intelligence in Radius, Spark fires an additional Projectile",
+   "ids": {
+    "explicit": [
+     "explicit.stat_1650632809"
+    ]
+   }
+  },
+  {
+   "text": "With at least 40 Dexterity in Radius, Ethereal Knives fires an additional Projectile",
+   "ids": {
+    "explicit": [
+     "explicit.stat_2822821681"
+    ]
+   }
+  },
+  {
+   "text": "Consumes Socketed Uncorrupted Support Gems when they reach Maximum Level\nCan Consume # additional Uncorrupted Support Gems",
+   "ids": {
+    "explicit": [
+     "explicit.stat_3221550523"
+    ]
+   }
+  },
+  {
+   "text": "#% increased Damage Over Time during Effect",
+   "ids": {
+    "explicit": [
+     "explicit.stat_1140739168"
+    ]
+   }
+  },
+  {
+   "text": "Recharges # Charge when you deal a Critical Strike",
+   "ids": {
+    "explicit": [
+     "explicit.stat_2961372685"
+    ]
+   }
+  },
+  {
+   "text": "You gain Onslaught for # seconds on Kill",
+   "ids": {
+    "explicit": [
+     "explicit.stat_1195849808"
+    ]
+   }
+  },
+  {
+   "text": "Minions have #% increased Attack and Cast Speed if you or your Minions have Killed Recently",
+   "ids": {
+    "explicit": [
+     "explicit.stat_4227567885"
+    ],
+    "fractured": [
+     "fractured.stat_4227567885"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Bonechill Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_3024539694"
+    ]
+   }
+  },
+  {
+   "text": "#% of Physical Attack Damage Leeched as Life during Effect",
+   "ids": {
+    "explicit": [
+     "explicit.stat_3111255591"
+    ]
+   }
+  },
+  {
+   "text": "#% of Physical Attack Damage Leeched as Mana during Effect",
+   "ids": {
+    "explicit": [
+     "explicit.stat_374891408"
+    ]
+   }
+  },
+  {
+   "text": "#% increased Accuracy Rating if you haven't Killed Recently",
+   "ids": {
+    "explicit": [
+     "explicit.stat_2806435316"
+    ],
+    "fractured": [
+     "fractured.stat_2806435316"
+    ]
+   }
+  },
+  {
+   "text": "Trigger Level # Warlord's Mark when you Hit a Rare or Unique Enemy and have no Mark",
+   "ids": {
+    "explicit": [
+     "explicit.stat_2049471530"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Snipe Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_2282649307"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Fire Penetration Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_3161142268"
+    ]
+   }
+  },
+  {
+   "text": "Elemental Hit deals #% increased Damage",
+   "ids": {
+    "explicit": [
+     "explicit.stat_4109038270"
+    ]
+   }
+  },
+  {
+   "text": "Trigger Level # Warlords's Mark when you Hit a Rare or Unique Enemy and have no Mark",
+   "ids": {
+    "explicit": [
+     "explicit.stat_2021420128"
+    ]
+   }
+  },
+  {
+   "text": "Critical Strike Chance is increased by Lightning Resistance",
+   "ids": {
+    "explicit": [
+     "explicit.stat_2155513095"
+    ],
+    "fractured": [
+     "fractured.stat_2155513095"
+    ]
+   }
+  },
+  {
+   "text": "#% Chance to Trigger Level 18 Summon Spectral Wolf on Kill",
+   "ids": {
+    "explicit": [
+     "explicit.stat_1785942004"
+    ]
+   }
+  },
+  {
+   "text": "Temporal Chains has #% reduced Reservation if Cast as an Aura",
+   "ids": {
+    "explicit": [
+     "explicit.stat_3779771090"
+    ]
+   }
+  },
+  {
+   "text": "1 Added Passive Skill is Wish for Death",
+   "ids": {
+    "explicit": [
+     "explicit.stat_608164368"
+    ],
+    "fractured": [
+     "fractured.stat_608164368"
+    ]
+   }
+  },
+  {
+   "text": "#% increased Reservation of Skills per 250 total Attributes",
+   "ids": {
+    "explicit": [
+     "explicit.stat_3229976559"
+    ]
+   }
+  },
+  {
+   "text": "Every sixth time you cast each Spell, All Hits are Critically Strikes\nThese effects do not apply to Reservation, Duration or Channelling Spells",
+   "ids": {
+    "explicit": [
+     "explicit.stat_4031934041"
+    ]
+   }
+  },
+  {
+   "text": "Herald of Thunder has #% reduced Reservation",
+   "ids": {
+    "explicit": [
+     "explicit.stat_966400988"
+    ]
+   }
+  },
+  {
+   "text": "Minions gain Unholy Might for # seconds on Kill",
+   "ids": {
+    "explicit": [
+     "explicit.stat_3835570161"
+    ]
+   }
+  },
+  {
+   "text": "#% chance for Flasks you use to not consume Charges",
+   "ids": {
+    "explicit": [
+     "explicit.stat_311641062"
+    ],
+    "fractured": [
+     "fractured.stat_311641062"
+    ]
+   }
+  },
+  {
+   "text": "Herald of Agony has #% reduced Reservation",
+   "ids": {
+    "explicit": [
+     "explicit.stat_4253105373"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Cast On Critical Strike Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_4267977279"
+    ]
+   }
+  },
+  {
+   "text": "Herald of Ice has #% reduced Reservation",
+   "ids": {
+    "explicit": [
+     "explicit.stat_3537762266"
+    ]
+   }
+  },
+  {
+   "text": "Herald of Ash has #% reduced Reservation",
+   "ids": {
+    "explicit": [
+     "explicit.stat_2328234364"
+    ]
+   }
+  },
+  {
+   "text": "+# to Level of all Intelligence Skill Gems",
+   "ids": {
+    "explicit": [
+     "explicit.stat_493812998"
+    ]
+   }
+  },
+  {
+   "text": "1 Added Passive Skill is Deep Cuts",
+   "ids": {
+    "explicit": [
+     "explicit.stat_410939404"
+    ],
+    "fractured": [
+     "fractured.stat_410939404"
+    ]
+   }
+  },
+  {
+   "text": "Herald of Purity has #% reduced Reservation",
+   "ids": {
+    "explicit": [
+     "explicit.stat_1730304831"
+    ]
+   }
+  },
+  {
+   "text": "With 40 total Dexterity and Strength in Radius, Spectral Shield Throw Chains +# times",
+   "ids": {
+    "explicit": [
+     "explicit.stat_2105355711"
+    ]
+   }
+  },
+  {
+   "text": "With 40 total Dexterity and Strength in Radius, Spectral Shield Throw fires #% more Shard Projectiles",
+   "ids": {
+    "explicit": [
+     "explicit.stat_894768849"
+    ]
+   }
+  },
+  {
+   "text": "Life Leech effects are not removed when Unreserved Life is Filled\nLife Leech effects Recover Energy Shield instead while on Full Life",
+   "ids": {
+    "explicit": [
+     "explicit.stat_990335387"
+    ]
+   }
+  },
+  {
+   "text": "You cannot Recharge Energy Shield",
+   "ids": {
+    "explicit": [
+     "explicit.stat_4164247992"
+    ]
+   }
+  },
+  {
+   "text": "You cannot Regenerate Energy Shield",
+   "ids": {
+    "explicit": [
+     "explicit.stat_1052583507"
+    ]
+   }
+  },
+  {
+   "text": "You lose #% of Energy Shield per second",
+   "ids": {
+    "explicit": [
+     "explicit.stat_2350411833"
+    ]
+   }
+  },
+  {
+   "text": "Grants Level # Crushing Fist",
+   "ids": {
+    "explicit": [
+     "explicit.effect_2758343153"
+    ]
+   }
+  },
+  {
+   "text": "Grants Level # Summon Bestial Rhoa",
+   "ids": {
+    "explicit": [
+     "explicit.effect_4195991223"
+    ]
+   }
+  },
+  {
+   "text": "1 Added Passive Skill is Master of Fear",
+   "ids": {
+    "explicit": [
+     "explicit.stat_2771217016"
+    ],
+    "fractured": [
+     "fractured.stat_2771217016"
+    ]
+   }
+  },
+  {
+   "text": "Arctic Armour has #% reduced Reservation",
+   "ids": {
+    "explicit": [
+     "explicit.stat_2233726619"
+    ]
+   }
+  },
+  {
+   "text": "Vulnerability has #% reduced Reservation if Cast as an Aura",
+   "ids": {
+    "explicit": [
+     "explicit.stat_1798031916"
+    ]
+   }
+  },
+  {
+   "text": "Conductivity has #% reduced Reservation if Cast as an Aura",
+   "ids": {
+    "explicit": [
+     "explicit.stat_622203853"
+    ]
+   }
+  },
+  {
+   "text": "Frostbite has #% reduced Reservation if Cast as an Aura",
+   "ids": {
+    "explicit": [
+     "explicit.stat_4272260340"
+    ]
+   }
+  },
+  {
+   "text": "+# to Level of all Dexterity Skill Gems",
+   "ids": {
+    "explicit": [
+     "explicit.stat_146924886"
+    ]
+   }
+  },
+  {
+   "text": "Projectiles Fork",
+   "ids": {
+    "explicit": [
+     "explicit.stat_942938211"
+    ]
+   }
+  },
+  {
+   "text": "Flammability has #% reduced Reservation if Cast as an Aura",
+   "ids": {
+    "explicit": [
+     "explicit.stat_3152149523"
+    ]
+   }
+  },
+  {
+   "text": "Despair has #% reduced Reservation if Cast as an Aura",
+   "ids": {
+    "explicit": [
+     "explicit.stat_2562564343"
+    ]
+   }
+  },
+  {
+   "text": "Precision has 100% increased Mana Reservation Efficiency",
+   "ids": {
+    "explicit": [
+     "explicit.stat_1291925008"
+    ]
+   }
+  },
+  {
+   "text": "Grants Level # Discipline",
+   "ids": {
+    "explicit": [
+     "explicit.effect_599791292"
+    ]
+   }
+  },
+  {
+   "text": "Grants Level # Clarity",
+   "ids": {
+    "explicit": [
+     "explicit.effect_2190102120"
+    ]
+   }
+  },
+  {
+   "text": "Debuffs on players expire #% faster",
+   "ids": {
+    "explicit": [
+     "explicit.stat_195978073"
+    ]
+   }
+  },
+  {
+   "text": "Grants Level # Approaching Flames",
+   "ids": {
+    "explicit": [
+     "explicit.effect_694876310"
+    ]
+   }
+  },
+  {
+   "text": "1 Added Passive Skill is Forbidden Words",
+   "ids": {
+    "explicit": [
+     "explicit.stat_2454339320"
+    ],
+    "fractured": [
+     "fractured.stat_2454339320"
+    ]
+   }
+  },
+  {
+   "text": "Precision has 50% less Reservation",
+   "ids": {
+    "explicit": [
+     "explicit.stat_3736628755"
+    ]
+   }
+  },
+  {
+   "text": "Gain Unholy Might for 2 seconds on Critical Strike",
+   "ids": {
+    "explicit": [
+     "explicit.stat_2763710567"
+    ]
+   }
+  },
+  {
+   "text": "Grants Level # Ravenous",
+   "ids": {
+    "explicit": [
+     "explicit.effect_388828889"
+    ]
+   }
+  },
+  {
+   "text": "Throw an additional Mine",
+   "ids": {
+    "explicit": [
+     "explicit.stat_2395088636"
+    ]
+   }
+  },
+  {
+   "text": "#% increased Mine Arming Speed",
+   "ids": {
+    "explicit": [
+     "explicit.stat_3362665206"
+    ]
+   }
+  },
+  {
+   "text": "Blind does not affect your Chance to Hit",
+   "ids": {
+    "explicit": [
+     "explicit.stat_44716414"
+    ]
+   }
+  },
+  {
+   "text": "Grants Level # Intimidating Cry",
+   "ids": {
+    "explicit": [
+     "explicit.effect_3337525114"
+    ]
+   }
+  },
+  {
+   "text": "Grants Level # Lightning Warp",
+   "ids": {
+    "explicit": [
+     "explicit.effect_4211392390"
+    ]
+   }
+  },
+  {
+   "text": "Non-Aura Vaal Skills require #% reduced Souls Per Use",
+   "ids": {
+    "explicit": [
+     "explicit.stat_3533432197"
+    ],
+    "fractured": [
+     "fractured.stat_3533432197"
+    ]
+   }
+  },
+  {
+   "text": "Grants Level # Frostbite",
+   "ids": {
+    "explicit": [
+     "explicit.effect_2455845502"
+    ]
+   }
+  },
+  {
+   "text": "+# to Level of all Strength Skill Gems",
+   "ids": {
+    "explicit": [
+     "explicit.stat_2339012908"
+    ]
+   }
+  },
+  {
+   "text": "#% chance to Impale Enemies on Hit",
+   "ids": {
+    "explicit": [
+     "explicit.stat_3752938727"
+    ]
+   }
+  },
+  {
+   "text": "Regenerate #% of Life per second during any Flask Effect",
+   "ids": {
+    "explicit": [
+     "explicit.stat_3500911418"
+    ],
+    "fractured": [
+     "fractured.stat_3500911418"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Cast when Damage Taken Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_2581493934"
+    ]
+   }
+  },
+  {
+   "text": "Pride has #% reduced Reservation",
+   "ids": {
+    "explicit": [
+     "explicit.stat_250961191"
+    ]
+   }
+  },
+  {
+   "text": "Non-Aura Skills Cost no Mana or Life while Focused",
+   "ids": {
+    "explicit": [
+     "explicit.stat_849152640"
+    ],
+    "fractured": [
+     "fractured.stat_849152640"
+    ]
+   }
+  },
+  {
+   "text": "Manifest Dancing Dervish also manifests a copy of Dancing Dervish",
+   "ids": {
+    "explicit": [
+     "explicit.stat_1820083363"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Meat Shield Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_1933760319"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Increased Critical Damage Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_4278342035"
+    ]
+   }
+  },
+  {
+   "text": "While your Passive Skill Tree connects to the Marauder's starting location, you gain:\n#% of Life Regenerated per second",
+   "ids": {
+    "explicit": [
+     "explicit.stat_76458612"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Power Charge On Critical Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_949715883"
+    ]
+   }
+  },
+  {
+   "text": "Malevolence has #% reduced Reservation",
+   "ids": {
+    "explicit": [
+     "explicit.stat_4120821275"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Elemental Damage with Attacks Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_468251502"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Pierce Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_3457811678"
+    ]
+   }
+  },
+  {
+   "text": "Trigger Level 20 Goreblossom after spending #% of your Maximum Life on Spells",
+   "ids": {
+    "explicit": [
+     "explicit.stat_4034618287"
+    ]
+   }
+  },
+  {
+   "text": "Hatred has #% reduced Reservation",
+   "ids": {
+    "explicit": [
+     "explicit.stat_3835483564"
+    ]
+   }
+  },
+  {
+   "text": "1 Added Passive Skill is Supercharge",
+   "ids": {
+    "explicit": [
+     "explicit.stat_3226074658"
+    ],
+    "fractured": [
+     "fractured.stat_3226074658"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Greater Volley Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_2447178998"
+    ]
+   }
+  },
+  {
+   "text": "Zealotry has #% reduced Reservation",
+   "ids": {
+    "explicit": [
+     "explicit.stat_478612089"
+    ]
+   }
+  },
+  {
+   "text": "Wrath has #% reduced Reservation",
+   "ids": {
+    "explicit": [
+     "explicit.stat_3600749521"
+    ]
+   }
+  },
+  {
+   "text": "Grants Level # Vitality",
+   "ids": {
+    "explicit": [
+     "explicit.effect_2649350521"
+    ]
+   }
+  },
+  {
+   "text": "Anger has #% reduced Reservation",
+   "ids": {
+    "explicit": [
+     "explicit.stat_2003753577"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Item Rarity Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_3334987531"
+    ]
+   }
+  },
+  {
+   "text": "Grants Level # Wrath",
+   "ids": {
+    "explicit": [
+     "explicit.effect_2461314210"
+    ]
+   }
+  },
+  {
+   "text": "Grants Level # Determination",
+   "ids": {
+    "explicit": [
+     "explicit.effect_723113949"
+    ]
+   }
+  },
+  {
+   "text": "#% increased Movement Speed while Poisoned",
+   "ids": {
+    "explicit": [
+     "explicit.stat_3265807022"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Slower Projectiles Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_1276857842"
+    ]
+   }
+  },
+  {
+   "text": "Grants Level 20 Summon Shaper Memory\nGrants Level 20 #, which will be used by Shaper Memory",
+   "ids": {
+    "explicit": [
+     "explicit.stat_367775264"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Burning Damage Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_1200122555"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Ignite Proliferation Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_2343871202"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Faster Projectiles Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_1770376530"
+    ]
+   }
+  },
+  {
+   "text": "1 Added Passive Skill is No Witnesses",
+   "ids": {
+    "explicit": [
+     "explicit.stat_1722480396"
+    ],
+    "fractured": [
+     "fractured.stat_1722480396"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Spell Cascade Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_3678242906"
+    ]
+   }
+  },
+  {
+   "text": "Grants Level # Affliction",
+   "ids": {
+    "explicit": [
+     "explicit.effect_459241192"
+    ]
+   }
+  },
+  {
+   "text": "Hatred has #% more Reservation",
+   "ids": {
+    "explicit": [
+     "explicit.stat_47734694"
+    ]
+   }
+  },
+  {
+   "text": "Warbands have #% more Rarity of Items Dropped",
+   "ids": {
+    "explicit": [
+     "explicit.stat_751847284"
+    ]
+   }
+  },
+  {
+   "text": "Warbands have #% more Quantity of Items Dropped",
+   "ids": {
+    "explicit": [
+     "explicit.stat_121093551"
+    ]
+   }
+  },
+  {
+   "text": "#% increased Deception Experience gained",
+   "ids": {
+    "explicit": [
+     "explicit.stat_2678065384"
+    ],
+    "fractured": [
+     "fractured.stat_2678065384"
+    ]
+   }
+  },
+  {
+   "text": "1 Added Passive Skill is Intensity",
+   "ids": {
+    "explicit": [
+     "explicit.stat_2785835061"
+    ],
+    "fractured": [
+     "fractured.stat_2785835061"
+    ]
+   }
+  },
+  {
+   "text": "#% increased Accuracy Rating during Effect",
+   "ids": {
+    "explicit": [
+     "explicit.stat_3337754340"
+    ]
+   }
+  },
+  {
+   "text": "Gain 1 Fragile Regrowth each second",
+   "ids": {
+    "explicit": [
+     "explicit.stat_1086623733"
+    ]
+   }
+  },
+  {
+   "text": "1 Added Passive Skill is Gladiatorial Combat",
+   "ids": {
+    "explicit": [
+     "explicit.stat_1543731719"
+    ],
+    "fractured": [
+     "fractured.stat_1543731719"
+    ]
+   }
+  },
+  {
+   "text": "#% increased Counter-Thaumaturgy Experience gained",
+   "ids": {
+    "explicit": [
+     "explicit.stat_1237550112"
+    ],
+    "fractured": [
+     "fractured.stat_1237550112"
+    ]
+   }
+  },
+  {
+   "text": "#% increased Perception Experience gained",
+   "ids": {
+    "explicit": [
+     "explicit.stat_154668190"
+    ],
+    "fractured": [
+     "fractured.stat_154668190"
+    ]
+   }
+  },
+  {
+   "text": "Flesh and Stone has #% reduced Reservation",
+   "ids": {
+    "explicit": [
+     "explicit.stat_1537296847"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Ruthless Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_3921181872"
+    ]
+   }
+  },
+  {
+   "text": "1 Added Passive Skill is Confident Combatant",
+   "ids": {
+    "explicit": [
+     "explicit.stat_3930242735"
+    ],
+    "fractured": [
+     "fractured.stat_3930242735"
+    ]
+   }
+  },
+  {
+   "text": "#% increased Agility Experience gained",
+   "ids": {
+    "explicit": [
+     "explicit.stat_245401622"
+    ],
+    "fractured": [
+     "fractured.stat_245401622"
+    ]
+   }
+  },
+  {
+   "text": "#% increased Lockpicking Experience gained",
+   "ids": {
+    "explicit": [
+     "explicit.stat_2316712523"
+    ],
+    "fractured": [
+     "fractured.stat_2316712523"
+    ]
+   }
+  },
+  {
+   "text": "#% increased Trap Disarmament Experience gained",
+   "ids": {
+    "explicit": [
+     "explicit.stat_502047644"
+    ],
+    "fractured": [
+     "fractured.stat_502047644"
+    ]
+   }
+  },
+  {
+   "text": "#% increased Engineering Experience gained",
+   "ids": {
+    "explicit": [
+     "explicit.stat_1372426763"
+    ],
+    "fractured": [
+     "fractured.stat_1372426763"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Advanced Traps Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_3479500684"
+    ]
+   }
+  },
+  {
+   "text": "#% increased Demolition Experience gained",
+   "ids": {
+    "explicit": [
+     "explicit.stat_1492314881"
+    ],
+    "fractured": [
+     "fractured.stat_1492314881"
+    ]
+   }
+  },
+  {
+   "text": "#% chance to deal Double Damage with Attacks if Attack Time is longer than 1 second",
+   "ids": {
+    "explicit": [
+     "explicit.stat_3532157821"
+    ],
+    "fractured": [
+     "fractured.stat_3532157821"
+    ]
+   }
+  },
+  {
+   "text": "#% increased Brute Force Experience gained",
+   "ids": {
+    "explicit": [
+     "explicit.stat_2377447058"
+    ],
+    "fractured": [
+     "fractured.stat_2377447058"
+    ]
+   }
+  },
+  {
+   "text": "#% increased Rampage Streak Duration",
+   "ids": {
+    "explicit": [
+     "explicit.stat_1406039617"
+    ]
+   }
+  },
+  {
+   "text": "Your Linked targets deal #% increased Damage",
+   "ids": {
+    "explicit": [
+     "explicit.stat_2670735758"
+    ],
+    "fractured": [
+     "fractured.stat_2670735758"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Additional Accuracy Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_338557223"
+    ]
+   }
+  },
+  {
+   "text": "Grants Level # Purity of Ice",
+   "ids": {
+    "explicit": [
+     "explicit.effect_4154731776"
+    ]
+   }
+  },
+  {
+   "text": "#% increased Attack and Cast Speed if you've Hit an Enemy Recently",
+   "ids": {
+    "explicit": [
+     "explicit.stat_1483753325"
+    ],
+    "fractured": [
+     "fractured.stat_1483753325"
+    ]
+   }
+  },
+  {
+   "text": "Grants Level # Brandsurge",
+   "ids": {
+    "explicit": [
+     "explicit.effect_2360840648"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # More Duration Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_1544569957"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Trap and Mine Damage Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_4174205387"
+    ]
+   }
+  },
+  {
+   "text": "When a Bloodline Pack is Slain, it drops a Basic Currency Item",
+   "ids": {
+    "explicit": [
+     "explicit.stat_200299748"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Lightning Penetration Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_724848072"
+    ]
+   }
+  },
+  {
+   "text": "#% more Damage with Mines if one of your Traps has Triggered Recently",
+   "ids": {
+    "explicit": [
+     "explicit.stat_1702492342"
+    ]
+   }
+  },
+  {
+   "text": "#% more Damage with Traps if you have Detonated a Mine Recently",
+   "ids": {
+    "explicit": [
+     "explicit.stat_2513988000"
+    ]
+   }
+  },
+  {
+   "text": "#% increased Damage when on Full Life",
+   "ids": {
+    "explicit": [
+     "explicit.stat_592020238"
+    ],
+    "fractured": [
+     "fractured.stat_592020238"
+    ]
+   }
+  },
+  {
+   "text": "#% chance for Kills to count twice for Rampage",
+   "ids": {
+    "explicit": [
+     "explicit.stat_438351187"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Efficacy Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_2795990092"
+    ]
+   }
+  },
+  {
+   "text": "#% increased Damage for each Trap and Mine you have",
+   "ids": {
+    "explicit": [
+     "explicit.stat_1351682252"
+    ]
+   }
+  },
+  {
+   "text": "#% of Physical Attack Damage Leeched as Mana per Power Charge",
+   "ids": {
+    "explicit": [
+     "explicit.stat_604298782"
+    ]
+   }
+  },
+  {
+   "text": "Cannot gain Life during effect",
+   "ids": {
+    "explicit": [
+     "explicit.stat_1731620212"
+    ]
+   }
+  },
+  {
+   "text": "Fire Resistance cannot be Penetrated",
+   "ids": {
+    "explicit": [
+     "explicit.stat_1138860262"
+    ],
+    "fractured": [
+     "fractured.stat_1138860262"
+    ]
+   }
+  },
+  {
+   "text": "Brand Recall has #% increased Cooldown Recovery Rate",
+   "ids": {
+    "explicit": [
+     "explicit.stat_2795287443"
+    ],
+    "fractured": [
+     "fractured.stat_2795287443"
+    ]
+   }
+  },
+  {
+   "text": "Grants Level # Queen's Demand",
+   "ids": {
+    "explicit": [
+     "explicit.effect_669480840"
+    ]
+   }
+  },
+  {
+   "text": "When a Bloodline Pack is Slain, it drops a Rare Item",
+   "ids": {
+    "explicit": [
+     "explicit.stat_2309624770"
+    ]
+   }
+  },
+  {
+   "text": "Grants Level # Wintertide Brand",
+   "ids": {
+    "explicit": [
+     "explicit.effect_582742716"
+    ]
+   }
+  },
+  {
+   "text": "#% increased Mana Cost Efficiency of Skills which throw Traps or Mines",
+   "ids": {
+    "explicit": [
+     "explicit.stat_1601265558"
+    ]
+   }
+  },
+  {
+   "text": "Grants Level # Witchhunter's Pyre",
+   "ids": {
+    "explicit": [
+     "explicit.effect_1825763431"
+    ]
+   }
+  },
+  {
+   "text": "Hits against Enemies within 6 metres have 50% increased Critical Strike Chance",
+   "ids": {
+    "explicit": [
+     "explicit.stat_992435560"
+    ]
+   }
+  },
+  {
+   "text": "+#% to Cold Damage over Time Multiplier while affected by Malevolence",
+   "ids": {
+    "explicit": [
+     "explicit.stat_787958710"
+    ]
+   }
+  },
+  {
+   "text": "#% chance to gain Onslaught when you use a Flask",
+   "ids": {
+    "explicit": [
+     "explicit.stat_1324450398"
+    ],
+    "fractured": [
+     "fractured.stat_1324450398"
+    ]
+   }
+  },
+  {
+   "text": "+#% to Critical Strike Multiplier with Mines",
+   "ids": {
+    "explicit": [
+     "explicit.stat_2529112796"
+    ],
+    "fractured": [
+     "fractured.stat_2529112796"
+    ]
+   }
+  },
+  {
+   "text": "Grants Level # Illusory Warp",
+   "ids": {
+    "explicit": [
+     "explicit.effect_2820548076"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Skills have #% increased Cast Speed",
+   "ids": {
+    "explicit": [
+     "explicit.stat_3425934849"
+    ],
+    "fractured": [
+     "fractured.stat_3425934849"
+    ]
+   }
+  },
+  {
+   "text": "#% increased Effect of Socketed Magic Hypnotic Eye Jewels",
+   "ids": {
+    "explicit": [
+     "explicit.stat_654501336"
+    ],
+    "fractured": [
+     "fractured.stat_654501336"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Elemental Focus Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_2722476813"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Skills have #% increased Attack Speed",
+   "ids": {
+    "explicit": [
+     "explicit.stat_2881124988"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Critical Strike Affliction Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_602948540"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Spells have #% reduced Mana Cost",
+   "ids": {
+    "explicit": [
+     "explicit.stat_1688834903"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Minion Life Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_3858590323"
+    ]
+   }
+  },
+  {
+   "text": "#% increased Effect of Socketed Magic Searching Eye Jewels",
+   "ids": {
+    "explicit": [
+     "explicit.stat_1938324031"
+    ],
+    "fractured": [
+     "fractured.stat_1938324031"
+    ]
+   }
+  },
+  {
+   "text": "#% reduced Enemy Block Chance",
+   "ids": {
+    "explicit": [
+     "explicit.stat_2477381238"
+    ],
+    "fractured": [
+     "fractured.stat_2477381238"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Minion Speed Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_540595610"
+    ]
+   }
+  },
+  {
+   "text": "#% chance for Flasks to gain a Charge when you take a Critical Strike",
+   "ids": {
+    "explicit": [
+     "explicit.stat_301104070"
+    ],
+    "fractured": [
+     "fractured.stat_301104070"
+    ]
+   }
+  },
+  {
+   "text": "+# Physical Damage taken from Hits",
+   "ids": {
+    "explicit": [
+     "explicit.stat_321765853"
+    ]
+   }
+  },
+  {
+   "text": "#% increased Effect of Socketed Magic Murderous Eye Jewels",
+   "ids": {
+    "explicit": [
+     "explicit.stat_3949536301"
+    ],
+    "fractured": [
+     "fractured.stat_3949536301"
+    ]
+   }
+  },
+  {
+   "text": "#% increased frequency of Tempest effects",
+   "ids": {
+    "explicit": [
+     "explicit.stat_478341845"
+    ]
+   }
+  },
+  {
+   "text": "#% increased Effect of Socketed Magic Ghastly Eye Jewels",
+   "ids": {
+    "explicit": [
+     "explicit.stat_2526952837"
+    ],
+    "fractured": [
+     "fractured.stat_2526952837"
+    ]
+   }
+  },
+  {
+   "text": "Grants Level # Dash",
+   "ids": {
+    "explicit": [
+     "explicit.effect_2937199581"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Multiple Projectiles Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_1153652646"
+    ]
+   }
+  },
+  {
+   "text": "#% of Damage against Shocked Enemies Leeched as Mana",
+   "ids": {
+    "explicit": [
+     "explicit.stat_112201073"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Combustion Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_3985111281"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Vicious Projectiles Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_4119948431"
+    ]
+   }
+  },
+  {
+   "text": "#% chance to gain a Frenzy Charge when you Hit a Unique Enemy",
+   "ids": {
+    "explicit": [
+     "explicit.stat_4113439745"
+    ]
+   }
+  },
+  {
+   "text": "Allocates Instruments of Justice if you have the matching modifier on Forbidden Flesh",
+   "ids": {
+    "explicit": [
+     "explicit.stat_1190333629|3154"
+    ]
+   }
+  },
+  {
+   "text": "Gain Arcane Surge after Spending a total of # Mana",
+   "ids": {
+    "explicit": [
+     "explicit.stat_913614572"
+    ],
+    "fractured": [
+     "fractured.stat_913614572"
+    ]
+   }
+  },
+  {
+   "text": "#% chance to gain Onslaught for 3 seconds when Hit",
+   "ids": {
+    "explicit": [
+     "explicit.stat_3049760680"
+    ],
+    "fractured": [
+     "fractured.stat_3049760680"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Iron Grip Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_865121484"
+    ]
+   }
+  },
+  {
+   "text": "Allocates Instruments of Justice if you have the matching modifier on Forbidden Flame",
+   "ids": {
+    "explicit": [
+     "explicit.stat_2460506030|3154"
+    ]
+   }
+  },
+  {
+   "text": "#% increased Mana Reservation Efficiency of Skills that throw Mines",
+   "ids": {
+    "explicit": [
+     "explicit.stat_2265342288"
+    ]
+   }
+  },
+  {
+   "text": "#% chance to gain a Frenzy Charge when Hit",
+   "ids": {
+    "explicit": [
+     "explicit.stat_881914531"
+    ]
+   }
+  },
+  {
+   "text": "Cannot be Shocked or Ignited while moving",
+   "ids": {
+    "explicit": [
+     "explicit.stat_3592330380"
+    ],
+    "fractured": [
+     "fractured.stat_3592330380"
+    ]
+   }
+  },
+  {
+   "text": "#% chance to lose an Endurance Charge on Kill",
+   "ids": {
+    "explicit": [
+     "explicit.stat_627015097"
+    ],
+    "fractured": [
+     "fractured.stat_627015097"
+    ]
+   }
+  },
+  {
+   "text": "Grants Level # Pacify",
+   "ids": {
+    "explicit": [
+     "explicit.effect_1974816132"
+    ]
+   }
+  },
+  {
+   "text": "#% increased Effect of Socketed Rare Hypnotic Eye Jewels",
+   "ids": {
+    "explicit": [
+     "explicit.stat_1337730278"
+    ],
+    "fractured": [
+     "fractured.stat_1337730278"
+    ]
+   }
+  },
+  {
+   "text": "#% chance to lose a Frenzy Charge on Kill",
+   "ids": {
+    "explicit": [
+     "explicit.stat_2142803347"
+    ],
+    "fractured": [
+     "fractured.stat_2142803347"
+    ]
+   }
+  },
+  {
+   "text": "Regenerate #% of Energy Shield per second if you've Hit an Enemy Recently",
+   "ids": {
+    "explicit": [
+     "explicit.stat_588560583"
+    ]
+   }
+  },
+  {
+   "text": "#% increased Effect of Socketed Rare Ghastly Eye Jewels",
+   "ids": {
+    "explicit": [
+     "explicit.stat_1974290842"
+    ],
+    "fractured": [
+     "fractured.stat_1974290842"
+    ]
+   }
+  },
+  {
+   "text": "Adds # to # Physical Damage against Poisoned Enemies",
+   "ids": {
+    "explicit": [
+     "explicit.stat_424026624"
+    ]
+   }
+  },
+  {
+   "text": "+# to Evasion Rating if Hit an Enemy Recently",
+   "ids": {
+    "explicit": [
+     "explicit.stat_2935548106"
+    ]
+   }
+  },
+  {
+   "text": "#% increased Rarity of Items found during any Flask Effect",
+   "ids": {
+    "explicit": [
+     "explicit.stat_301625329"
+    ],
+    "fractured": [
+     "fractured.stat_301625329"
+    ]
+   }
+  },
+  {
+   "text": "#% increased Effect of Socketed Rare Searching Eye Jewels",
+   "ids": {
+    "explicit": [
+     "explicit.stat_3524275808"
+    ],
+    "fractured": [
+     "fractured.stat_3524275808"
+    ]
+   }
+  },
+  {
+   "text": "Grants Level # Aspect of Solaris",
+   "ids": {
+    "explicit": [
+     "explicit.effect_3654111757"
+    ]
+   }
+  },
+  {
+   "text": "#% increased Reservation of Curse Aura Skills",
+   "ids": {
+    "explicit": [
+     "explicit.stat_3292930705"
+    ]
+   }
+  },
+  {
+   "text": "+# to Armour if you've Hit an Enemy Recently",
+   "ids": {
+    "explicit": [
+     "explicit.stat_2368149582"
+    ]
+   }
+  },
+  {
+   "text": "#% increased Effect of Socketed Rare Murderous Eye Jewels",
+   "ids": {
+    "explicit": [
+     "explicit.stat_1217940944"
+    ],
+    "fractured": [
+     "fractured.stat_1217940944"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Predator",
+   "ids": {
+    "explicit": [
+     "explicit.stat_4082662318"
+    ]
+   }
+  },
+  {
+   "text": "Grants Level # Vaal Impurity of Lightning",
+   "ids": {
+    "explicit": [
+     "explicit.effect_3460970428"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Impale Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_3419961156"
+    ]
+   }
+  },
+  {
+   "text": "#% chance to lose a Power Charge on Kill",
+   "ids": {
+    "explicit": [
+     "explicit.stat_2939195168"
+    ],
+    "fractured": [
+     "fractured.stat_2939195168"
+    ]
+   }
+  },
+  {
+   "text": "Mines have a #% chance to be Detonated an Additional Time",
+   "ids": {
+    "explicit": [
+     "explicit.stat_2445634879"
+    ],
+    "fractured": [
+     "fractured.stat_2445634879"
+    ]
+   }
+  },
+  {
+   "text": "Grants Level # Purity of Elements",
+   "ids": {
+    "explicit": [
+     "explicit.effect_2174769737"
+    ]
+   }
+  },
+  {
+   "text": "Your Fire Damage can Shock",
+   "ids": {
+    "explicit": [
+     "explicit.stat_932096321"
+    ],
+    "fractured": [
+     "fractured.stat_932096321"
+    ]
+   }
+  },
+  {
+   "text": "Regenerate #% of Mana per second if you've Hit an Enemy Recently",
+   "ids": {
+    "explicit": [
+     "explicit.stat_2602865453"
+    ]
+   }
+  },
+  {
+   "text": "+# to Accuracy Rating per 2 Dexterity",
+   "ids": {
+    "explicit": [
+     "explicit.stat_773731062"
+    ],
+    "fractured": [
+     "fractured.stat_773731062"
+    ]
+   }
+  },
+  {
+   "text": "Grants Level # Vaal Impurity of Ice",
+   "ids": {
+    "explicit": [
+     "explicit.effect_1149451356"
+    ]
+   }
+  },
+  {
+   "text": "#% chance to Unnerve Enemies for 4 seconds on Hit with Spells",
+   "ids": {
+    "explicit": [
+     "explicit.stat_220991810"
+    ],
+    "fractured": [
+     "fractured.stat_220991810"
+    ]
+   }
+  },
+  {
+   "text": "Cold Resistance cannot be Penetrated",
+   "ids": {
+    "explicit": [
+     "explicit.stat_1864616755"
+    ],
+    "fractured": [
+     "fractured.stat_1864616755"
+    ]
+   }
+  },
+  {
+   "text": "Grants Level # Aspect of Arakaali",
+   "ids": {
+    "explicit": [
+     "explicit.effect_3676299820"
+    ]
+   }
+  },
+  {
+   "text": "Throw up to # additional Trap if dual wielding",
+   "ids": {
+    "explicit": [
+     "explicit.stat_2130824945"
+    ],
+    "fractured": [
+     "fractured.stat_2130824945"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Triggered Skills deal Double Damage",
+   "ids": {
+    "explicit": [
+     "explicit.stat_4021083819"
+    ],
+    "fractured": [
+     "fractured.stat_4021083819"
+    ]
+   }
+  },
+  {
+   "text": "+# to Armour while Fortified",
+   "ids": {
+    "explicit": [
+     "explicit.stat_153004860"
+    ]
+   }
+  },
+  {
+   "text": "Lightning Resistance cannot be Penetrated",
+   "ids": {
+    "explicit": [
+     "explicit.stat_3515979920"
+    ],
+    "fractured": [
+     "fractured.stat_3515979920"
+    ]
+   }
+  },
+  {
+   "text": "#% chance on killing an Enemy to not generate Alert Level",
+   "ids": {
+    "explicit": [
+     "explicit.stat_1432361650"
+    ]
+   }
+  },
+  {
+   "text": "Every second time you cast each Spell, gain Mana equal to its Upfront Cost",
+   "ids": {
+    "explicit": [
+     "explicit.stat_3334947764"
+    ]
+   }
+  },
+  {
+   "text": "Every fourth time you cast each Spell, Damage of its Hits is Lucky",
+   "ids": {
+    "explicit": [
+     "explicit.stat_2100268747"
+    ]
+   }
+  },
+  {
+   "text": "Your Lightning Damage can Freeze",
+   "ids": {
+    "explicit": [
+     "explicit.stat_380759151"
+    ],
+    "fractured": [
+     "fractured.stat_380759151"
+    ]
+   }
+  },
+  {
+   "text": "#% increased Global Evasion Rating when on Full Life",
+   "ids": {
+    "explicit": [
+     "explicit.stat_88817332"
+    ]
+   }
+  },
+  {
+   "text": "All Damage can Freeze against Cursed Enemies",
+   "ids": {
+    "explicit": [
+     "explicit.stat_3299583952"
+    ]
+   }
+  },
+  {
+   "text": "#% increased Alert Level from killing Guards",
+   "ids": {
+    "explicit": [
+     "explicit.stat_1327804524"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Damage on Full Life Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_918792330"
+    ]
+   }
+  },
+  {
+   "text": "Cannot be Chilled or Frozen while moving",
+   "ids": {
+    "explicit": [
+     "explicit.stat_628032624"
+    ]
+   }
+  },
+  {
+   "text": "Melee Attacks Knock Enemies Back on Hit",
+   "ids": {
+    "explicit": [
+     "explicit.stat_3962823719"
+    ],
+    "fractured": [
+     "fractured.stat_3962823719"
+    ]
+   }
+  },
+  {
+   "text": "#% increased Alert Level from killing Patrol Packs",
+   "ids": {
+    "explicit": [
+     "explicit.stat_2042972420"
+    ]
+   }
+  },
+  {
+   "text": "Enemies Taunted by your Warcries take #% increased Damage",
+   "ids": {
+    "explicit": [
+     "explicit.stat_3610197448"
+    ],
+    "fractured": [
+     "fractured.stat_3610197448"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Sadism Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_2142148729"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Awakened Multistrike Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_115345895"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Trap Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_1854569159"
+    ]
+   }
+  },
+  {
+   "text": "Life Leech from Critical Strikes is instant",
+   "ids": {
+    "explicit": [
+     "explicit.stat_771469730"
+    ]
+   }
+  },
+  {
+   "text": "Grants Level # Vaal Impurity of Fire",
+   "ids": {
+    "explicit": [
+     "explicit.effect_192206434"
+    ]
+   }
+  },
+  {
+   "text": "Guards add additional Alert Level on Death",
+   "ids": {
+    "explicit": [
+     "explicit.stat_1535006826"
+    ]
+   }
+  },
+  {
+   "text": "+#% to Critical Strike Multiplier with Traps",
+   "ids": {
+    "explicit": [
+     "explicit.stat_1780168381"
+    ],
+    "fractured": [
+     "fractured.stat_1780168381"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Barrage Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_3805221392"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Chain Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_3009566559"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Fortify Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_3543464371"
+    ]
+   }
+  },
+  {
+   "text": "Grants Level # Enduring Cry",
+   "ids": {
+    "explicit": [
+     "explicit.effect_1255519432"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Awakened Melee Physical Damage Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_2260732373"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Chance to Flee Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_3318957131"
+    ]
+   }
+  },
+  {
+   "text": "Grants Level # Envy",
+   "ids": {
+    "explicit": [
+     "explicit.effect_2236653998"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Culling Strike Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_1961292105"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Awakened Brutality Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_2367771894"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Swift Assembly Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_2142007278"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Awakened Elemental Damage with Attacks Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_786034009"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Second Wind Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_876810709"
+    ]
+   }
+  },
+  {
+   "text": "#% increased Attack Damage per Raised Zombie",
+   "ids": {
+    "explicit": [
+     "explicit.stat_2941183243"
+    ]
+   }
+  },
+  {
+   "text": "#% increased Spell Damage per Summoned Skeleton",
+   "ids": {
+    "explicit": [
+     "explicit.stat_2001753918"
+    ]
+   }
+  },
+  {
+   "text": "#% increased Critical Strike Chance with Mines",
+   "ids": {
+    "explicit": [
+     "explicit.stat_214031493"
+    ],
+    "fractured": [
+     "fractured.stat_214031493"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Divine Blessing Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_3161048706"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Stun Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_1878151040"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Infused Channelling Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_1303915392"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Eternal Blessing Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_222199368"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Blasphemy Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_434885230"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Awakened Vicious Projectiles Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_482188560"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Knockback Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_838736469"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Energy Leech Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_9279802"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Generosity Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_1339810278"
+    ]
+   }
+  },
+  {
+   "text": "Can Attack as though using a Claw while main hand is empty",
+   "ids": {
+    "explicit": [
+     "explicit.stat_2264031073"
+    ]
+   }
+  },
+  {
+   "text": "# to # Added Cold Damage with Unarmed Attacks",
+   "ids": {
+    "explicit": [
+     "explicit.stat_2644626772"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Feeding Frenzy Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_3628997762"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Rage Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_3512123051"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Elemental Army Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_400129667"
+    ]
+   }
+  },
+  {
+   "text": "#% chance for a damaging Retaliation skill to\nbecome usable for every 100 life removed this way",
+   "ids": {
+    "explicit": [
+     "explicit.stat_86321750"
+    ]
+   }
+  },
+  {
+   "text": "Grants Level # Precision",
+   "ids": {
+    "explicit": [
+     "explicit.effect_2496940419"
+    ]
+   }
+  },
+  {
+   "text": "#% increased Attack Speed if you've used an Attack Movement Skill Recently",
+   "ids": {
+    "explicit": [
+     "explicit.stat_3267026680"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Cold Penetration Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_3851855898"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Blastchain Mine Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_3082206530"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Awakened Void Manipulation Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_2653498431"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Cast on Death Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_626699959"
+    ]
+   }
+  },
+  {
+   "text": "#% chance to Avoid being Knocked Back",
+   "ids": {
+    "explicit": [
+     "explicit.stat_2362265695"
+    ]
+   }
+  },
+  {
+   "text": "Grants Level # Herald of Thunder",
+   "ids": {
+    "explicit": [
+     "explicit.effect_2128724272"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Elemental Penetration Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_3232631539"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Bloodlust Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_3124293229"
+    ]
+   }
+  },
+  {
+   "text": "Grants Level # Aspect of the Cat",
+   "ids": {
+    "explicit": [
+     "explicit.effect_771254875"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Blind Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_3972941836"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Deadly Ailments Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_1329591193"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Invert the Rules",
+   "ids": {
+    "explicit": [
+     "explicit.stat_2475469642"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Enlighten Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_1979264894"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Awakened Lightning Penetration Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_3874278368"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Fork Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_3553187279"
+    ]
+   }
+  },
+  {
+   "text": "Grants Level # Smite",
+   "ids": {
+    "explicit": [
+     "explicit.effect_1389174793"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Spell Totem Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_1858870975"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Shockwave",
+   "ids": {
+    "explicit": [
+     "explicit.stat_1344789934"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Decay Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_153063788"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Life Leech Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_2713755048"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Life Gain on Hit Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_4282732147"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Behead Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_3897784788"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Unleash Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_1710445055"
+    ]
+   }
+  },
+  {
+   "text": "Topaz Flasks applied to you have #% increased Effect",
+   "ids": {
+    "explicit": [
+     "explicit.stat_806147232"
+    ]
+   }
+  },
+  {
+   "text": "Grants Level # Herald of the Hive",
+   "ids": {
+    "explicit": [
+     "explicit.effect_1708392771"
+    ]
+   }
+  },
+  {
+   "text": "Grants Level # Snipe",
+   "ids": {
+    "explicit": [
+     "explicit.effect_3880597684"
+    ]
+   }
+  },
+  {
+   "text": "Grants Level # Herald of Ice",
+   "ids": {
+    "explicit": [
+     "explicit.effect_1659491511"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Controlled Destruction Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_3431656752"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Awakened Burning Damage Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_4028786187"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Greater Multistrike Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_907088360"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Point Blank Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_3737573678"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Melee Splash Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_682681978"
+    ]
+   }
+  },
+  {
+   "text": "Grants Level # Herald of Ash",
+   "ids": {
+    "explicit": [
+     "explicit.effect_415209642"
+    ]
+   }
+  },
+  {
+   "text": "Grants Level # Hatred",
+   "ids": {
+    "explicit": [
+     "explicit.effect_3051142611"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Arcane Surge Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_3438910899"
+    ]
+   }
+  },
+  {
+   "text": "Gain Added Spell Damage equal to #% of Damage of Equipped Wand\nIf two Wands are Equipped, each contributes half as much Added Damage",
+   "ids": {
+    "explicit": [
+     "explicit.stat_1274429432"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Hextouch Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_1749703704"
+    ]
+   }
+  },
+  {
+   "text": "Grants Level # Aspect of Lunaris",
+   "ids": {
+    "explicit": [
+     "explicit.effect_4273541898"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Fresh Meat Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_967395006"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Summon Phantasm Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_2439286871"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Elemental Proliferation Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_3828086965"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Awakened Swift Affliction Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_3745700985"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Spell Echo Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_3995245401"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems deal #% more damage per Socketed Skill Gem",
+   "ids": {
+    "explicit": [
+     "explicit.stat_2876425796"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Charged Mines Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_2638439725"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Chance to Poison Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_2141384509"
+    ]
+   }
+  },
+  {
+   "text": "Grants Level # Aspect of the Avian",
+   "ids": {
+    "explicit": [
+     "explicit.effect_3115071909"
+    ]
+   }
+  },
+  {
+   "text": "Skills Cost Life instead of #% of Mana Cost",
+   "ids": {
+    "explicit": [
+     "explicit.stat_2480498143"
+    ],
+    "fractured": [
+     "fractured.stat_2480498143"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Support Gems have no effect",
+   "ids": {
+    "explicit": [
+     "explicit.stat_1521791684"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Returning Projectiles Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_2714845045"
+    ]
+   }
+  },
+  {
+   "text": "#% increased Armour from Equipped Boots and Gloves",
+   "ids": {
+    "explicit": [
+     "explicit.stat_1901408736"
+    ],
+    "fractured": [
+     "fractured.stat_1901408736"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Hex Bloom Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_548051260"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Greater Spell Echo Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_3544093007"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Charged Traps Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_3872728076"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Iron Will Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_351343865"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Less Duration Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_4185976903"
+    ]
+   }
+  },
+  {
+   "text": "Grants Level # Aspect of the Crab",
+   "ids": {
+    "explicit": [
+     "explicit.effect_3385179923"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Earthbreaker Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_3947742455"
+    ]
+   }
+  },
+  {
+   "text": "Grants Level # Gluttony of Elements",
+   "ids": {
+    "explicit": [
+     "explicit.effect_442407318"
+    ]
+   }
+  },
+  {
+   "text": "Grants Level # Decoy Totem",
+   "ids": {
+    "explicit": [
+     "explicit.effect_476766308"
+    ]
+   }
+  },
+  {
+   "text": "Blind you inflict is permanent",
+   "ids": {
+    "explicit": [
+     "explicit.stat_1823668305"
+    ]
+   }
+  },
+  {
+   "text": "Blinding a non-Blinded Pinnacle Atlas Boss with this Weapon will\nsteal a Modifier for this item (# Modifier remaining)",
+   "ids": {
+    "explicit": [
+     "explicit.stat_699502241"
+    ]
+   }
+  },
+  {
+   "text": "Grants Level # Blood Offering",
+   "ids": {
+    "explicit": [
+     "explicit.effect_2109649836"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Awakened Elemental Focus Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_2513678384"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Innervate Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_1994599451"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Eclipse Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_3959464467"
+    ]
+   }
+  },
+  {
+   "text": "Grants Level # Purity of Fire",
+   "ids": {
+    "explicit": [
+     "explicit.effect_994349216"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Cruelty Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_2251567057"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Trinity Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_2242579123"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Cast on Ward Break Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_2594535436"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Manaforged Arrows Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_1787679190"
+    ]
+   }
+  },
+  {
+   "text": "+#% to Off Hand Critical Strike Chance while Dual Wielding",
+   "ids": {
+    "explicit": [
+     "explicit.stat_3547436813"
+    ],
+    "fractured": [
+     "fractured.stat_3547436813"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Swiftbrand Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_2129634187"
+    ]
+   }
+  },
+  {
+   "text": "Grants Level # Summon Bestial Snake",
+   "ids": {
+    "explicit": [
+     "explicit.effect_2377502094"
+    ]
+   }
+  },
+  {
+   "text": "Grants Level # Summon Bestial Ursa",
+   "ids": {
+    "explicit": [
+     "explicit.effect_2092916684"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Awakened Added Chaos Damage Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_2052193809"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Arrow Nova Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_1405334938"
+    ]
+   }
+  },
+  {
+   "text": "# Prefix Modifier cannot be changed",
+   "ids": {
+    "explicit": [
+     "explicit.stat_181387736"
+    ]
+   }
+  },
+  {
+   "text": "#% increased Damage with Hits and Ailments per Freeze, Shock or Ignite on Enemy",
+   "ids": {
+    "explicit": [
+     "explicit.stat_4229711086"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Added Chaos Damage Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_1673391040"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Item Quantity Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_1733367133"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Inspiration Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_859488427"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Devour Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_1726066205"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Nightblade Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_1505316781"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Unbound Ailments Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_880096186"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Awakened Chain Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_1311270539"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Cast while Channelling Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_1723015380"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Ice Bite Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_2409633913"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Guardian's Blessing Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_1263906374"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Faster Casting Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_1324938267"
+    ]
+   }
+  },
+  {
+   "text": "Grants Embrace Madness",
+   "ids": {
+    "explicit": [
+     "explicit.effect_2338856567"
+    ]
+   }
+  },
+  {
+   "text": "#% chance to Trigger Level 20 Moonfall on Melee Critical Strike",
+   "ids": {
+    "explicit": [
+     "explicit.stat_2746497881"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Awakened Unbound Ailments Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_1134484173"
+    ]
+   }
+  },
+  {
+   "text": "Convocation has #% increased Cooldown Recovery Rate",
+   "ids": {
+    "explicit": [
+     "explicit.stat_2680060124"
+    ],
+    "fractured": [
+     "fractured.stat_2680060124"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Spellblade Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_4055657913"
+    ]
+   }
+  },
+  {
+   "text": "The first # Mana Burn applied to you has no effect",
+   "ids": {
+    "explicit": [
+     "explicit.stat_3246496608"
+    ],
+    "fractured": [
+     "fractured.stat_3246496608"
+    ]
+   }
+  },
+  {
+   "text": "Grants Level # Unhinge",
+   "ids": {
+    "explicit": [
+     "explicit.effect_1306984944"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Awakened Added Cold Damage Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_2912209560"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Minefield Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_2617381612"
+    ]
+   }
+  },
+  {
+   "text": "Grants Level # Death Wish",
+   "ids": {
+    "explicit": [
+     "explicit.effect_1543118831"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # High-Impact Mine Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_3482292969"
+    ]
+   }
+  },
+  {
+   "text": "Grants Level # Frostblink",
+   "ids": {
+    "explicit": [
+     "explicit.effect_273196120"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Withering Touch Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_602297583"
+    ]
+   }
+  },
+  {
+   "text": "Granite Flasks applied to you have #% increased Effect",
+   "ids": {
+    "explicit": [
+     "explicit.stat_1478637533"
+    ]
+   }
+  },
+  {
+   "text": "Goreblossom has +# maximum Bloom",
+   "ids": {
+    "explicit": [
+     "explicit.stat_1597503116"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Endurance Charge on Melee Stun Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_144941225"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Vile Toxins Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_2698327786"
+    ]
+   }
+  },
+  {
+   "text": "Attacks with Axes or Swords grant # Rage on Hit",
+   "ids": {
+    "explicit": [
+     "explicit.stat_326480871"
+    ]
+   }
+  },
+  {
+   "text": "#% increased Unarmed Attack Speed with Melee Skills",
+   "ids": {
+    "explicit": [
+     "explicit.stat_1584440377"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Lifetap Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_265550805"
+    ]
+   }
+  },
+  {
+   "text": "Minions convert #% of Physical Damage to Fire Damage",
+   "ids": {
+    "explicit": [
+     "explicit.stat_1045292082"
+    ]
+   }
+  },
+  {
+   "text": "Critical Strikes with Bows have a #% chance to Poison the Enemy",
+   "ids": {
+    "explicit": [
+     "explicit.stat_1928468569"
+    ]
+   }
+  },
+  {
+   "text": "Grants Level # Summon Stone Golem",
+   "ids": {
+    "explicit": [
+     "explicit.effect_2998965359"
+    ]
+   }
+  },
+  {
+   "text": "Grants Level # Blood Sacrament",
+   "ids": {
+    "explicit": [
+     "explicit.effect_299595248"
+    ]
+   }
+  },
+  {
+   "text": "Gain Added Spell Damage equal to #% of Damage of Equipped Dagger\nIf two Daggers are Equipped, each contributes 60% as much Added Damage",
+   "ids": {
+    "explicit": [
+     "explicit.stat_3481254135"
+    ]
+   }
+  },
+  {
+   "text": "Grants Level # Doryani's Touch",
+   "ids": {
+    "explicit": [
+     "explicit.effect_2753888557"
+    ]
+   }
+  },
+  {
+   "text": "Grants Level # Penance Mark",
+   "ids": {
+    "explicit": [
+     "explicit.effect_3188237829"
+    ]
+   }
+  },
+  {
+   "text": "Grants Level # Haste",
+   "ids": {
+    "explicit": [
+     "explicit.effect_2559654739"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Maim Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_1243416714"
+    ]
+   }
+  },
+  {
+   "text": "You cannot Regenerate or Recoup Life",
+   "ids": {
+    "explicit": [
+     "explicit.stat_301822628"
+    ]
+   }
+  },
+  {
+   "text": "Grants Level # Bear Trap",
+   "ids": {
+    "explicit": [
+     "explicit.effect_2589518277"
+    ]
+   }
+  },
+  {
+   "text": "Trigger level 20 Temporal Mirage on using a Movement Attack",
+   "ids": {
+    "explicit": [
+     "explicit.stat_3500769326"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Empower Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_360069007"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Added Lightning Damage Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_3607696303"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Melee Physical Damage Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_369135889"
+    ]
+   }
+  },
+  {
+   "text": "Grants Level # Will of the Lords",
+   "ids": {
+    "explicit": [
+     "explicit.effect_2579976590"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Physical to Lightning Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_1059201360"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Focused Channelling Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_2653742489"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Added Fire Damage Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_1571191461"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Frigid Bond Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_4154493255"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Cold to Fire Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_3756080110"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Block Chance Reduction Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_155410994"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Close Combat Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_1602381821"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Arrogance Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_1740076026"
+    ]
+   }
+  },
+  {
+   "text": "# Suffix Modifier cannot be changed",
+   "ids": {
+    "explicit": [
+     "explicit.stat_2390914662"
+    ],
+    "fractured": [
+     "fractured.stat_2390914662"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Controlled Blaze Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_189485532"
+    ]
+   }
+  },
+  {
+   "text": "Grants Level # Anger",
+   "ids": {
+    "explicit": [
+     "explicit.effect_2014162730"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Awakened Spell Echo Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_2307564778"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Awakened Empower Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_3059751250"
+    ]
+   }
+  },
+  {
+   "text": "Grants Level # Thirst for Blood",
+   "ids": {
+    "explicit": [
+     "explicit.effect_1931234481"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Cursed Ground Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_3984157052"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Greater Spell Cascade Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_1865320540"
+    ]
+   }
+  },
+  {
+   "text": "Ruby Flasks applied to you have #% increased Effect",
+   "ids": {
+    "explicit": [
+     "explicit.stat_758685542"
+    ]
+   }
+  },
+  {
+   "text": "Grants Level # Aspect of the Brine King",
+   "ids": {
+    "explicit": [
+     "explicit.effect_3963374775"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Void Manipulation Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_2742501709"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Awakened Deadly Ailments Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_3879545743"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Multiple Totems Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_4083688802"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Pyre",
+   "ids": {
+    "explicit": [
+     "explicit.stat_165595385"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Mirage Archer Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_2937933274"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Chance to Bleed Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_1561428496"
+    ]
+   }
+  },
+  {
+   "text": "Your Minions have no Armour or Maximum Energy Shield",
+   "ids": {
+    "explicit": [
+     "explicit.stat_4060457653"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Awakened Blasphemy Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_3257625635"
+    ]
+   }
+  },
+  {
+   "text": "Your Minions gain your chance to Suppress Spell Damage",
+   "ids": {
+    "explicit": [
+     "explicit.stat_3888619765"
+    ]
+   }
+  },
+  {
+   "text": "Sapphire Flasks applied to you have #% increased Effect",
+   "ids": {
+    "explicit": [
+     "explicit.stat_1982347220"
+    ]
+   }
+  },
+  {
+   "text": "+#% to Critical Strike Chance",
+   "ids": {
+    "explicit": [
+     "explicit.stat_1909401378"
+    ]
+   }
+  },
+  {
+   "text": "Maximum Bitterblood is equal to your Maximum Life",
+   "ids": {
+    "explicit": [
+     "explicit.stat_3664562804"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Immolate Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_1199731147"
+    ]
+   }
+  },
+  {
+   "text": "Gain Bitterblood equal to Life spent",
+   "ids": {
+    "explicit": [
+     "explicit.stat_3945412713"
+    ]
+   }
+  },
+  {
+   "text": "Cannot roll Modifiers with Required Level above #",
+   "ids": {
+    "explicit": [
+     "explicit.stat_238314698"
+    ]
+   }
+  },
+  {
+   "text": "Grants Level # Purity of Lightning",
+   "ids": {
+    "explicit": [
+     "explicit.effect_426005818"
+    ]
+   }
+  },
+  {
+   "text": "Grants Level # Petrification Statue",
+   "ids": {
+    "explicit": [
+     "explicit.effect_1463464665"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Faster Attacks Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_4291787627"
+    ]
+   }
+  },
+  {
+   "text": "Damage with Weapons Penetrates #% Chaos Resistance",
+   "ids": {
+    "explicit": [
+     "explicit.stat_2237902788"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Enhance Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_3006785117"
+    ]
+   }
+  },
+  {
+   "text": "You can have two different Banners at the same time",
+   "ids": {
+    "explicit": [
+     "explicit.stat_28721242"
+    ]
+   }
+  },
+  {
+   "text": "Crucible Passive Skills are more likely to be retained when Forging",
+   "ids": {
+    "explicit": [
+     "explicit.stat_1736735948"
+    ]
+   }
+  },
+  {
+   "text": "Crucible Passive Skills on Forged Items cannot have tiers downgraded",
+   "ids": {
+    "explicit": [
+     "explicit.stat_4294430899"
+    ]
+   }
+  },
+  {
+   "text": "Forged Items are fully Linked",
+   "ids": {
+    "explicit": [
+     "explicit.stat_2592705940"
+    ]
+   }
+  },
+  {
+   "text": "Attacks with this Weapon have #% chance to deal Triple Damage",
+   "ids": {
+    "explicit": [
+     "explicit.stat_1930039303"
+    ]
+   }
+  },
+  {
+   "text": "Rage grants Cast Speed instead of Attack Speed",
+   "ids": {
+    "explicit": [
+     "explicit.stat_1903477793"
+    ]
+   }
+  },
+  {
+   "text": "#% increased Impale Duration",
+   "ids": {
+    "explicit": [
+     "explicit.stat_3986342559"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Cast when Stunned Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_3474714415"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Mana Leech Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_952649073"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Added Cold Damage Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_3362019776"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Hypothermia Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_1214076534"
+    ]
+   }
+  },
+  {
+   "text": "Grants Level # Scorching Ray",
+   "ids": {
+    "explicit": [
+     "explicit.effect_4004746559"
+    ]
+   }
+  },
+  {
+   "text": "Grows four random Passive Skills when Anointed\nPassive Skills grown are influenced by Oils used when Anointing",
+   "ids": {
+    "explicit": [
+     "explicit.stat_2255402066"
+    ]
+   }
+  },
+  {
+   "text": "Grants Level # Convocation",
+   "ids": {
+    "explicit": [
+     "explicit.effect_234218186"
+    ]
+   }
+  },
+  {
+   "text": "Grants Level # Icestorm",
+   "ids": {
+    "explicit": [
+     "explicit.effect_3952702255"
+    ]
+   }
+  },
+  {
+   "text": "Lose all Frenzy, Endurance, and Power Charges when you Move",
+   "ids": {
+    "explicit": [
+     "explicit.stat_31415336"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Sacred Wisps",
+   "ids": {
+    "explicit": [
+     "explicit.stat_3304737450"
+    ]
+   }
+  },
+  {
+   "text": "+#% Chance to Block Spell Damage if you have not Blocked Recently",
+   "ids": {
+    "explicit": [
+     "explicit.stat_3771323968"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Void Shockwave",
+   "ids": {
+    "explicit": [
+     "explicit.stat_3455096360"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Fist of War Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_813521895"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Excommunicate Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_2612646353"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Awakened Added Lightning Damage Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_3311634296"
+    ]
+   }
+  },
+  {
+   "text": "All Damage can Shock against Cursed Enemies",
+   "ids": {
+    "explicit": [
+     "explicit.stat_4246782633"
+    ]
+   }
+  },
+  {
+   "text": "Areas contain Einhar\nAreas can contain capturable Harvest Beasts",
+   "ids": {
+    "explicit": [
+     "explicit.stat_3751566939"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Hextoad",
+   "ids": {
+    "explicit": [
+     "explicit.stat_2172297405"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Archmage Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_2963700146"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Invert the Rules Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_3121158131"
+    ]
+   }
+  },
+  {
+   "text": "#% increased Effect of Buffs your Ancestor Totems grant while Active",
+   "ids": {
+    "explicit": [
+     "explicit.stat_1027887872"
+    ]
+   }
+  },
+  {
+   "text": "Lose an Eaten Soul every second while no Unique Enemy is in your Presence",
+   "ids": {
+    "explicit": [
+     "explicit.stat_1331907976"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Awakened Melee Splash Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_672697655"
+    ]
+   }
+  },
+  {
+   "text": "+#% Chance to Block Attack Damage if you've Stunned an Enemy Recently",
+   "ids": {
+    "explicit": [
+     "explicit.stat_2937199008"
+    ]
+   }
+  },
+  {
+   "text": "Hits Overwhelm #% of Physical Damage Reduction while you have Sacrificial Zeal",
+   "ids": {
+    "explicit": [
+     "explicit.stat_1415418540"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Awakened Fork Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_1899953379"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Overcharge Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_707288393"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Volatility Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_3498266457"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Pulverise Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_971650107"
+    ]
+   }
+  },
+  {
+   "text": "All Damage can Ignite against Cursed Enemies",
+   "ids": {
+    "explicit": [
+     "explicit.stat_1977950683"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Awakened Minion Damage Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_1380260970"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Awakened Greater Multiple Projectiles Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_3960686014"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Concentrated Effect Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_3293595800"
+    ]
+   }
+  },
+  {
+   "text": "Maximum # Eaten Soul",
+   "ids": {
+    "explicit": [
+     "explicit.stat_3153125103"
+    ]
+   }
+  },
+  {
+   "text": "Buffs from Active Ancestor Totems Linger for # second",
+   "ids": {
+    "explicit": [
+     "explicit.stat_3328802509"
+    ]
+   }
+  },
+  {
+   "text": "Crucible Passive Skills on Forged Items have +#% chance for tiers to be upgraded",
+   "ids": {
+    "explicit": [
+     "explicit.stat_4226044796"
+    ]
+   }
+  },
+  {
+   "text": "Maximum 1 Buff from an Active Ancestor Totem at a time",
+   "ids": {
+    "explicit": [
+     "explicit.stat_725696472"
+    ]
+   }
+  },
+  {
+   "text": "Forged Items have the numeric values of Modifiers Randomised",
+   "ids": {
+    "explicit": [
+     "explicit.stat_2418755296"
+    ]
+   }
+  },
+  {
+   "text": "Forged Items are Corrupted with an Implicit",
+   "ids": {
+    "explicit": [
+     "explicit.stat_3478814676"
+    ]
+   }
+  },
+  {
+   "text": "Enemies Blinded by you while you are Blinded have Malediction",
+   "ids": {
+    "explicit": [
+     "explicit.stat_15523600"
+    ]
+   }
+  },
+  {
+   "text": "Forged Items have 30% Quality",
+   "ids": {
+    "explicit": [
+     "explicit.stat_881299808"
+    ]
+   }
+  },
+  {
+   "text": "# uses remaining",
+   "ids": {
+    "explicit": [
+     "explicit.stat_1479533453"
+    ]
+   }
+  },
+  {
+   "text": "Hits with this Weapon Overwhelm #% Physical Damage Reduction",
+   "ids": {
+    "explicit": [
+     "explicit.stat_3579673398"
+    ],
+    "fractured": [
+     "fractured.stat_3579673398"
+    ]
+   }
+  },
+  {
+   "text": "Areas contain The Sacred Grove\nCrops are larger in size\nCrops contain higher tier seeds",
+   "ids": {
+    "explicit": [
+     "explicit.stat_3422644692"
+    ]
+   }
+  },
+  {
+   "text": "Contains a Furnace that adds a Crucible Passive Skill Tree to an Uncorrupted Unique Item",
+   "ids": {
+    "explicit": [
+     "explicit.stat_245814726"
+    ]
+   }
+  },
+  {
+   "text": "Contains a Furnace that removes a Crucible Passive Skill Tree from a Non-Unique Item",
+   "ids": {
+    "explicit": [
+     "explicit.stat_3673969640"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Ancestral Call Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_3672428602"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Swift Affliction Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_1115172759"
+    ]
+   }
+  },
+  {
+   "text": "#% increased Effect of Cruelty",
+   "ids": {
+    "explicit": [
+     "explicit.stat_1123294660"
+    ],
+    "fractured": [
+     "fractured.stat_1123294660"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Greater Multiple Projectiles Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_2107340112"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Volley Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_3022937704"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Ballista Totem Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_2686067790"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Brutality Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_3869346801"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Increased Critical Strikes Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_1355803435"
+    ]
+   }
+  },
+  {
+   "text": "Weapons and Shields found have #% chance to have the maximum number of Sockets",
+   "ids": {
+    "explicit": [
+     "explicit.stat_3785942492"
+    ]
+   }
+  },
+  {
+   "text": "Forged Items have a Crucible Passive Skill that modifies the sell price of the Item if possible",
+   "ids": {
+    "explicit": [
+     "explicit.stat_2801601300"
+    ]
+   }
+  },
+  {
+   "text": "Weapons and Shields found have #% chance to be Fractured",
+   "ids": {
+    "explicit": [
+     "explicit.stat_4280114386"
+    ]
+   }
+  },
+  {
+   "text": "Projectiles Pierce 2 additional Targets",
+   "ids": {
+    "explicit": [
+     "explicit.stat_3640956958"
+    ]
+   }
+  },
+  {
+   "text": "Each 10 Rage also grants #% increased Physical Damage",
+   "ids": {
+    "explicit": [
+     "explicit.stat_2688118197"
+    ]
+   }
+  },
+  {
+   "text": "Weapons and Shields found have #% chance to be Corrupted with an Implicit",
+   "ids": {
+    "explicit": [
+     "explicit.stat_1747220877"
+    ]
+   }
+  },
+  {
+   "text": "Weapons and Shields found have #% chance to be fully Linked",
+   "ids": {
+    "explicit": [
+     "explicit.stat_375750705"
+    ]
+   }
+  },
+  {
+   "text": "Minimum Endurance Charges equal to Maximum while stationary\nMinimum Frenzy Charges equal to Maximum while stationary\nMinimum Power Charges equal to Maximum while stationary",
+   "ids": {
+    "explicit": [
+     "explicit.stat_3410776118"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Momentum Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_3893320621"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Intensify Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_429242364"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Minion Damage Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_174595432"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Cluster Traps Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_3808743835"
+    ]
+   }
+  },
+  {
+   "text": "#% increased Attack Speed per Enemy in Close Range",
+   "ids": {
+    "explicit": [
+     "explicit.stat_3459071185"
+    ],
+    "fractured": [
+     "fractured.stat_3459071185"
+    ]
+   }
+  },
+  {
+   "text": "Grants Level # Rallying Cry",
+   "ids": {
+    "explicit": [
+     "explicit.effect_1702053472"
+    ]
+   }
+  },
+  {
+   "text": "Socketed Gems are Supported by Level # Cast on Melee Kill Support",
+   "ids": {
+    "explicit": [
+     "explicit.effect_2640673956"
+    ]
+   }
+  },
+  {
+   "text": "Grants Level # Grace",
+   "ids": {
+    "explicit": [
+     "explicit.effect_3568418482"
+    ]
+   }
+  }
+ ]
+}
